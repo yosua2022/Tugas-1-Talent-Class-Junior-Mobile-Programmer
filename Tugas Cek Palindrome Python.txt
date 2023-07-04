@@ -1,0 +1,8 @@
+text = input("Masukan teks : ")
+
+reverse = text[::-1]
+
+if( text == reverse ):
+    print("ya ini adalah palindrome")
+else:
+    print("ini bukan palindrome")

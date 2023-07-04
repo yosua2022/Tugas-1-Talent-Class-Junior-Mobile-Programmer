@@ -1,0 +1,12 @@
+fun main() {
+    print("Masukan teks: ")
+    val text = readLine()
+
+    val reverse = text?.reversed()
+
+    if (text == reverse) {
+        println("ya ini adalah palindrome")
+    } else {
+        println("ini bukan palindrome")
+    }
+}
